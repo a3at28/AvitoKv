@@ -3,7 +3,7 @@ package tech.itpark;
 public class Flat {
     long id;
     String image;
-    int room;
+    int rooms;
     double area;
     int storey;
     int storeyInHouse;
@@ -14,7 +14,7 @@ public class Flat {
     String metro;
     double distanceToMetro;
     String seller;
-    String created;
+    long created;
 
 }
 

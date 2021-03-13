@@ -5,8 +5,8 @@ public class Main {
 
         Flat flat1 = new Flat();
 
-        flat1.room = 1;
-        System.out.println(flat1.room);
+        flat1.rooms = 1;
+        System.out.println(flat1.rooms);
         flat1.area = 31.2;
         System.out.println(flat1.area);
         flat1.storey = 9;
@@ -21,13 +21,13 @@ public class Main {
         System.out.println(flat1.address);
         flat1.seller = "Агентство";
         System.out.println(flat1.seller);
-        flat1.created = "4 дня назад";
+        flat1.created = 1615362721;
         System.out.println(flat1.created);
 
         Flat flat2 = new Flat();
 
-        flat2.room = 1;
-        System.out.println(flat2.room);
+        flat2.rooms = 1;
+        System.out.println(flat2.rooms);
         flat2.area = 33;
         System.out.println(flat2.area);
         flat2.storey = 17;
@@ -46,13 +46,13 @@ public class Main {
         System.out.println(flat2.distanceToMetro);
         flat2.seller = "Агентство недвижимости Ключ";
         System.out.println(flat2.seller);
-        flat2.created = "28 минут назад";
+        flat2.created = 1615354201;
         System.out.println(flat2.created);
 
         Flat flat3 = new Flat();
 
-        flat3.room = 3;
-        System.out.println(flat3.room);
+        flat3.rooms = 3;
+        System.out.println(flat3.rooms);
         flat3.area = 132.1;
         System.out.println(flat3.area);
         flat3.storey = 4;
@@ -71,7 +71,7 @@ public class Main {
         System.out.println(flat3.distanceToMetro);
         flat3.seller = "Агентство недвижимости Ключ";
         System.out.println(flat3.seller);
-        flat3.created = "13 минут назад";
+        flat3.created = 1615350601;
         System.out.println(flat3.created);
 
     }
